@@ -1,0 +1,6 @@
+print('''
+Problem No.
+Title:
+
+Problem:
+''')
