@@ -14,6 +14,11 @@ Problem:    The sum of the squares of the first ten natural numbers is,
             Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 ''')
 
+import time
+
+start = time.time()
+
+# ==================================================
 sumOfSq = 0
 sqOfSum = 0
 
@@ -27,3 +32,9 @@ sqOfSum = sqOfSum**2
 diff = sqOfSum - sumOfSq
 
 print(diff)
+# ==================================================
+
+end = time.time()
+time = end - start
+
+print("This took %s seconds" % time)

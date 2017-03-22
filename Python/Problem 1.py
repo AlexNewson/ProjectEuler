@@ -6,7 +6,11 @@ Problem:    If we list all the natural numbers below 10 that are multiples of 3 
             The sum of these multiples is 23.
             Find the sum of all the multiples of 3 or 5 below 1000.
 ''')
+import time
 
+start = time.time()
+
+# ==================================================
 x = 0
 numbers = []
 
@@ -19,3 +23,9 @@ for x in range(0, 999):
 
 answer = sum(numbers)
 print('The Answer is: %i' % answer)
+# ==================================================
+
+end = time.time()
+time = end - start
+
+print("This took %s seconds" % time)

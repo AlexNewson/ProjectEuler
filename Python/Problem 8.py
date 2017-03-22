@@ -28,6 +28,11 @@ Problem:    The four adjacent digits in the 1000-digit number that have the grea
             Find the thirteen adjacent digits in the 1000-digit number that have the greatest product. What is the value of this product?
 ''')
 
+import time
+
+start = time.time()
+
+# ==================================================
 digitBlock = """
 73167176531330624919225119674426574742355349194934
 96983520312774506326239578318016984801869478851843
@@ -64,3 +69,9 @@ for x in range(len(digitBlock)):
         largestProduct = product
 
 print(largestProduct)
+# ==================================================
+
+end = time.time()
+time = end - start
+
+print("This took %s seconds" % time)

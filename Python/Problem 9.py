@@ -11,6 +11,11 @@ Problem:    A Pythagorean triplet is a set of three natural numbers, a < b < c, 
             Find the product abc.
 ''')
 
+import time
+
+start = time.time()
+
+# ==================================================
 from math import sqrt, floor
 
 # Two Equations
@@ -34,3 +39,9 @@ for a in range(1, 500):
     if int(floor(c)) == c and 0 < a < b < c:
         print(a, int(b), int(c))
         print(int(a*b*c))
+# ==================================================
+
+end = time.time()
+time = end - start
+
+print("This took %s seconds" % time)
