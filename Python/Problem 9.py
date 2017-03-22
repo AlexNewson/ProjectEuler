@@ -11,26 +11,26 @@ Problem:    A Pythagorean triplet is a set of three natural numbers, a < b < c, 
             Find the product abc.
 ''')
 
-# A = 200
-# B = 375
-# C = 425
+from math import sqrt, floor
 
-a = 0
-b = 0
-c = 0
+# Two Equations
+# a2 + b2 = c2
+# a + b + c = 1000
 
-while a < 998:
-    b = 0
-    a += 1
-    while b < 999:
-        c = 0
-        b += 1
-        while c < 1000:
-            c += 1
+# Equations Substituted
+# 0 = 1000^2 - 2000a - 2000b + 2ab
 
-            if a + b + c == 1000:
-                if a**2 + b**2 == c**2:
-                    print a
-                    print b
-                    print c
-                    break
+# 2000a - 2ab = 1000^2 - 2000b
+# a(2000 - 2b) = 1000^2 - 2000b
+# a = (1000^2 - 2000b)/(2000-2b)
+# a = 1000(1000 - 2b)/(2000-2b)
+
+# Simplified
+# a = 1000 * 500-b / 1000-a
+
+for a in range(1, 500):
+    b = 1000 * (500-a) / (1000-a)
+    c = sqrt(a**2 + b**2)
+    if int(floor(c)) == c and 0 < a < b < c:
+        print(a, int(b), int(c))
+        print(int(a*b*c))
