@@ -32,5 +32,10 @@ while x2 < 4000000:
 
 print(numbers)
 answer = sum(numbers)
-print('The Answer is: %i' % answer)
+print("The Answer is: %i" % answer)
 # ==================================================
+
+end = time.time()
+time = end - start
+
+print("This took %s seconds" % time)

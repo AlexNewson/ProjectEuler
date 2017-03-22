@@ -19,7 +19,7 @@ found = False
 while not found:
     number = x1 * x2
     if str(number) == str(number)[::-1]:
-        print(str(number))
+        print("The Answer is: %i" % number)
         found = True
     else:
         pass
@@ -27,7 +27,7 @@ while not found:
 
     number = x1 * x2
     if str(number) == str(number)[::-1]:
-        print(str(number))
+        print("The Answer is: %i" % number)
         found = True
     else:
         pass

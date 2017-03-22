@@ -33,7 +33,7 @@ def nthPrime(n):
     return prime
 
 answer = nthPrime(10001)
-print(answer)
+print("The Answer is: %i" % answer)
 # ==================================================
 
 end = time.time()

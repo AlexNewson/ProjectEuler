@@ -68,7 +68,7 @@ for x in range(len(digitBlock)):
     if product > largestProduct:
         largestProduct = product
 
-print(largestProduct)
+print("The Answer is: %i" % largestProduct)
 # ==================================================
 
 end = time.time()

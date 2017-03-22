@@ -27,7 +27,7 @@ while notFound:
     if score == 10:
         break
 
-print(number)
+print("The Answer is: %i" % number)
 # ==================================================
 
 end = time.time()

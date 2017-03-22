@@ -30,7 +30,7 @@ for n in range(2, 2000000):
     if isPrime(n):
         primeSum += n
 
-print(primeSum)
+print("The Answer is: %i" % primeSum)
 # ==================================================
 
 end = time.time()

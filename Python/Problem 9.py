@@ -38,7 +38,8 @@ for a in range(1, 500):
     c = sqrt(a**2 + b**2)
     if int(floor(c)) == c and 0 < a < b < c:
         print(a, int(b), int(c))
-        print(int(a*b*c))
+        answer = int(a*b*c)
+        print("The Answer is: %i" % answer)
 # ==================================================
 
 end = time.time()

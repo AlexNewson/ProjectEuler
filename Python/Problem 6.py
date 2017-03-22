@@ -31,7 +31,7 @@ sqOfSum = sqOfSum**2
 
 diff = sqOfSum - sumOfSq
 
-print(diff)
+print("The Answer is: %i" % diff)
 # ==================================================
 
 end = time.time()
