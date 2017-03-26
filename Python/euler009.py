@@ -12,12 +12,11 @@ Problem:    A Pythagorean triplet is a set of three natural numbers, a < b < c, 
 ''')
 
 import time
+from math import sqrt, floor
 
 start = time.time()
 
 # ==================================================
-from math import sqrt, floor
-
 # Two Equations
 # a2 + b2 = c2
 # a + b + c = 1000
@@ -37,7 +36,6 @@ for a in range(1, 500):
     b = 1000 * (500-a) / (1000-a)
     c = sqrt(a**2 + b**2)
     if int(floor(c)) == c and 0 < a < b < c:
-        print(a, int(b), int(c))
         answer = int(a*b*c)
         print("The Answer is: %i" % answer)
 # ==================================================

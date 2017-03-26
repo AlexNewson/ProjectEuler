@@ -14,9 +14,9 @@ My Progress on Project Euler
 |[Problem 4](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler004.py)|`0.0003102`|
 |[Problem 5](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler005.py)|`0.1413260`|
 |[Problem 6](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler006.py)|`0.0001502`|
-|[Problem 7](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler007.py)|`0.3846428`|
+|[Problem 7](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler007.py)|`0.3737860`|
 |[Problem 8](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler008.py)|`0.0061557`|
-|[Problem 9](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler009.py)|`0.0023189`|
-|[Problem 10](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler010.py)|`23.7668481`|
+|[Problem 9](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler009.py)|`0.0005982`|
+|[Problem 10](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler010.py)|`22.9424088`|
 |[Problem 11](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler011.py)|`0.0009398`|
-|[Problem 12](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler012.py)|`6.4329860`|
+|[Problem 12](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler012.py)|`6.2369530`|

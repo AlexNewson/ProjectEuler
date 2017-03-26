@@ -7,6 +7,7 @@ Problem:    By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we c
 ''')
 
 import time
+from math import sqrt
 
 start = time.time()
 
@@ -16,7 +17,7 @@ def isPrime(x):
         return False
 
     p = 3
-    while p < x**0.5+1:
+    while p < sqrt(x)+1:
         if x % p == 0: return False
         p += 2
     return True
