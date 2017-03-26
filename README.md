@@ -19,3 +19,4 @@ My Progress on Project Euler
 |[Problem 9](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/Problem%209.py)|`0.0023189`|
 |[Problem 10](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/Problem%2010.py)|`23.7668481`|
 |[Problem 11](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/Problem%2011.py)|`0.0009398`|
+|[Problem 12](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/Problem%2012.py)|`6.4329860`|
