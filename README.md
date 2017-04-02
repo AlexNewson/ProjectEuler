@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Images/ProjectEuler.png" alt="ProjectEuler.net"/>
+  <img src="Images/ProjectEulerLogo.png" alt="ProjectEuler.net"/>
 </p>
 
 ---
