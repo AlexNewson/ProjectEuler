@@ -12,25 +12,24 @@ Here you can find all my solutions I've written for the problems and how fast th
 ## Answers
 [Python 3](https://github.com/AlexNewson/ProjectEuler/tree/master/Python)
 
-## Speed Tables
-### Python
-|Problem No.|Time/s|
-|---|---:|
-|[Problem 1](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler001.py)|`0.0002780`|
-|[Problem 2](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler002.py)|`0.0000730`|
-|[Problem 3](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler003.py)|`0.0017622`|
-|[Problem 4](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler004.py)|`0.0003102`|
-|[Problem 5](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler005.py)|`0.1413260`|
-|[Problem 6](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler006.py)|`0.0001502`|
-|[Problem 7](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler007.py)|`0.3737860`|
-|[Problem 8](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler008.py)|`0.0061557`|
-|[Problem 9](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler009.py)|`0.0005982`|
-|[Problem 10](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler010.py)|`22.9424088`|
-|[Problem 11](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler011.py)|`0.0009398`|
-|[Problem 12](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler012.py)|`6.2369530`|
-|[Problem 13](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler013.py)|`0.0000281`|
-|[Problem 14](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler014.py)|`40.2446182`|
-|[Problem 15](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler015.py)|`0.00003600`|
-|[Problem 16](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler016.py)|`0.00013065`|
-|[Problem 17](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler017.py)|`0.00527787`|
-|[Problem 18](https://github.com/AlexNewson/ProjectEuler/blob/master/Python/euler018.py)|`0.00011182`|
+## Speed Table
+|Problem No.                                        |Python Time/s                     |
+|---                                                |---:                              |
+|[Problem 001](https://projecteuler.net/problem=001)|[` 0.0002780`](Python/euler001.py)|
+|[Problem 002](https://projecteuler.net/problem=002)|[` 0.0000730`](Python/euler002.py)|
+|[Problem 003](https://projecteuler.net/problem=003)|[` 0.0017622`](Python/euler003.py)|
+|[Problem 004](https://projecteuler.net/problem=004)|[` 0.0003102`](Python/euler004.py)|
+|[Problem 005](https://projecteuler.net/problem=005)|[` 0.1413260`](Python/euler005.py)|
+|[Problem 006](https://projecteuler.net/problem=006)|[` 0.0001502`](Python/euler006.py)|
+|[Problem 007](https://projecteuler.net/problem=007)|[` 0.3737860`](Python/euler007.py)|
+|[Problem 008](https://projecteuler.net/problem=008)|[` 0.0061557`](Python/euler008.py)|
+|[Problem 009](https://projecteuler.net/problem=009)|[` 0.0005982`](Python/euler009.py)|
+|[Problem 010](https://projecteuler.net/problem=010)|[`22.9424088`](Python/euler010.py)|
+|[Problem 011](https://projecteuler.net/problem=011)|[` 0.0009398`](Python/euler011.py)|
+|[Problem 012](https://projecteuler.net/problem=012)|[` 6.2369530`](Python/euler012.py)|
+|[Problem 013](https://projecteuler.net/problem=013)|[` 0.0000281`](Python/euler013.py)|
+|[Problem 014](https://projecteuler.net/problem=014)|[`40.2446182`](Python/euler014.py)|
+|[Problem 015](https://projecteuler.net/problem=015)|[` 0.0000360`](Python/euler015.py)|
+|[Problem 016](https://projecteuler.net/problem=016)|[` 0.0001307`](Python/euler016.py)|
+|[Problem 017](https://projecteuler.net/problem=017)|[` 0.0052779`](Python/euler017.py)|
+|[Problem 018](https://projecteuler.net/problem=018)|[` 0.0001118`](Python/euler018.py)|
