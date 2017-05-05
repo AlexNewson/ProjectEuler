@@ -33,3 +33,4 @@ Here you can find all my solutions I've written for the problems and how fast th
 |[Problem 016](https://projecteuler.net/problem=016)|[` 0.0001307`](Python/euler016.py)|
 |[Problem 017](https://projecteuler.net/problem=017)|[` 0.0052779`](Python/euler017.py)|
 |[Problem 018](https://projecteuler.net/problem=018)|[` 0.0001118`](Python/euler018.py)|
+|[Problem 019](https://projecteuler.net/problem=019)|[` 0.0099831`](Python/euler019.py)|
