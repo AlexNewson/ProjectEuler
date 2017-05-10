@@ -39,3 +39,4 @@ Here you can find all my solutions I've written for the problems and how fast th
 |[Problem 022](https://projecteuler.net/problem=022)|[` 0.2836637`](Python/euler022.py)|
 |[Problem 023](https://projecteuler.net/problem=023)|[` 0.9616332`](Python/euler023.py)|
 |[Problem 024](https://projecteuler.net/problem=024)|[` 1.2809133`](Python/euler024.py)|
+|[Problem 025](https://projecteuler.net/problem=025)|[` 0.0294840`](Python/euler025.py)|
