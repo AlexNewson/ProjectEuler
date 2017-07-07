@@ -13,7 +13,7 @@ Here you can find all my solutions I've written for the problems and how fast th
 [Python 3](https://github.com/AlexNewson/ProjectEuler/tree/master/Python)
 
 ## Speed Table
-|Problem No.                                        |Python Time / seconds             |
+|Problem No.                                        |Python Time/s                     |
 |---                                                |---:                              |
 |[Problem 001](https://projecteuler.net/problem=001)|[` 0.0002780`](Python/euler001.py)|
 |[Problem 002](https://projecteuler.net/problem=002)|[` 0.0000730`](Python/euler002.py)|
