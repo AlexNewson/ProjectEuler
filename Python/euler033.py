@@ -55,7 +55,9 @@ for num in range(11, 100):
 for frac in answers:
     answer *= Fraction(int(frac[0]), int(frac[1]))
 
-print("The Answer is: %i" % answer)
+answer = str(answer)
+
+print("The Answer is: %s" % answer)
 # ==================================================
 
 end = time.time()
