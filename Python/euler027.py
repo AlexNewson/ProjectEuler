@@ -1,6 +1,6 @@
 print('''
-Problem No. 00
-Title:      Template
+Problem No. 27
+Title:      Quadratic primes
 
 Problem:    Euler discovered the remarkable quadratic formula:
 
