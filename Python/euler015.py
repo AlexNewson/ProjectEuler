@@ -1,15 +1,7 @@
-print('''
-Problem No. 15
-Title:      Lattice paths
-
-Problem:    Starting in the top left corner of a 2x2 grid, and only being able
-            to move to the right and down, there are exactly 6 routes to the
-            bottom right corner.
-
-            How many such routes are there through a 20x20 grid?
-''')
-
 import time
+from euler import print_problem
+
+print_problem(15)
 from math import factorial as f
 
 start = time.time()

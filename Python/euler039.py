@@ -1,17 +1,7 @@
-print('''
-Problem No. 39
-Title:      Integer right triangles
-
-Problem:    If p is the perimeter of a right angle triangle with integral length sides,
-            {a,b,c}, there are exactly three solutions for p = 120.
-
-            {20,48,52}, {24,45,51}, {30,40,50}
-            
-            For which value of p ≤ 1000, is the number of solutions maximised?
-''')
-
 import time
+from euler import print_problem
 
+print_problem(39)
 start = time.time()
 
 # ==================================================

@@ -1,12 +1,7 @@
-print('''
-Problem No. 10
-Title:      Summation of primes
-
-Problem:    The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
-            Find the sum of all the primes below two million.
-''')
-
 import time
+from euler import print_problem
+
+print_problem(10)
 from math import sqrt
 
 start = time.time()
