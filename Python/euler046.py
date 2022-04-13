@@ -28,6 +28,7 @@ number = 9
 answer = 0
 
 while answer == 0:
+    # Incriment
     number += 1
 
     if number % 2 == 1:
@@ -35,14 +36,12 @@ while answer == 0:
             x = 0
             while True:
                 x += 1
-                prime = number - (2 * (x ^ 2))
-                if prime > number:
+                prime = number - (2 * (x ** 2))
+                if prime < 0:
                     answer = number
                     break
                 if is_prime(prime):
                     break
-                else:
-                    x += 1
 
 print("The Answer is: %i" % answer)
 # ==================================================
