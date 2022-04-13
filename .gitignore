@@ -1,9 +1,8 @@
 # Pycharm
 .idea
 
-# Pipenv
-Pipfile
-Pipfile.lock
+# Python
+venv
 
 # MacOS
 .DS_Store
