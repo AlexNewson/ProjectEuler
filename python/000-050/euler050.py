@@ -25,7 +25,7 @@ for i in range(size):
         else:
             previous_j = j+1
             break
-            
+
 print(answer)
 # ==================================================
 
