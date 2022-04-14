@@ -12,7 +12,7 @@ tnumbers = []
 for n in range(1, 31):
     tnumbers.append(int(0.5*n*(n+1)))
 
-with open('./Resources/euler042.txt', 'r') as file:
+with open('resources/euler042.txt', 'r') as file:
     words = file.readline().replace("\"", "").split(",")
 
 for word in words:

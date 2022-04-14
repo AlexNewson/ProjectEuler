@@ -9,7 +9,7 @@ start = time.time()
 # ==================================================
 alphabet = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
             "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
-txt_path = os.path.dirname(os.path.realpath(__file__)) + "/Resources/euler022.txt"
+txt_path = os.path.dirname(os.path.realpath(__file__)) + "/resources/euler022.txt"
 
 file = open(txt_path, "r")
 file = file.read().split(',')
