@@ -1,7 +1,7 @@
 import time
-from euler import print_problem
+import euler
 
-print_problem(9)
+euler.print_problem(9)
 from math import sqrt, floor
 
 start = time.time()

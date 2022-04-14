@@ -1,7 +1,7 @@
 import time
-from euler import print_problem
+import euler
 
-print_problem(20)
+euler.print_problem(20)
 from math import factorial as f
 
 start = time.time()

@@ -1,26 +1,16 @@
 import time
-from euler import print_problem
+import euler
 from math import sqrt
 
-print_problem(45)
+euler.print_problem(45)
 start = time.time()
 
 # ==================================================
-
-
-def is_pen(x):
-    return ((1 + sqrt(1 + 24 * x)) / 6).is_integer()
-
-
-def gen_hex(n):
-    return int(n * (2 * n - 1))
-
-
 i = 144
 
 while True:
-    hexagon = gen_hex(i)
-    if is_pen(hexagon):
+    hexagon = euler.generate_hexagonal(i)
+    if euler.is_pentagonal(hexagon):
         break
     i += 1
 

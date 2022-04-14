@@ -1,32 +1,15 @@
 import time
-from euler import print_problem
+import euler
 
-print_problem(35)
-from math import sqrt
+euler.print_problem(35)
 
 start = time.time()
 
 # ==================================================
-def isPrime(n):
-    if n <= 1:
-        return False
-    if n <= 3:
-        return True
-    if n % 2 == 0 or n % 3 == 0:
-        return False
-    r = int(sqrt(n))
-    f = 5
-    while f <= r:
-        if n % f == 0 or n % (f + 2) == 0:
-            return False
-        f += 6
-    return True
-
-
 numbers = []
 
 for i in range(1, 1000000):
-    if i not in numbers and isPrime(i):
+    if i not in numbers and euler.is_prime(i):
         if len(str(i)) == 1:
             numbers.append(i)
         else:
@@ -38,7 +21,7 @@ for i in range(1, 1000000):
                     break
                 else:
                     i1 = int(i1)
-                    if i != i1 and isPrime(i1):
+                    if i != i1 and euler.is_prime(i1):
                         potential.append(i1)
                         continue
                     elif i == i1:

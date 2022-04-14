@@ -1,7 +1,7 @@
 import time
-from euler import print_problem
+import euler
 
-print_problem(12)
+euler.print_problem(12)
 from math import sqrt
 
 start = time.time()

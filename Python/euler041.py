@@ -1,43 +1,11 @@
 import time
-from euler import print_problem
+import euler
 
-print_problem(41)
+euler.print_problem(41)
 start = time.time()
 
 # ==================================================
 from itertools import permutations
-from math import sqrt
-
-
-def isPandigital(y):
-    if len(y) == 9:
-        x = []
-        for i in y:
-            if i == "0":
-                return False
-            elif i in x:
-                return False
-            x.append(i)
-        return True
-    else:
-        return False
-
-
-def isPrime(n):
-    if n <= 1:
-        return False
-    if n <= 3:
-        return True
-    if n % 2 == 0 or n % 3 == 0:
-        return False
-    r = int(sqrt(n))
-    f = 5
-    while f <= r:
-        if n % f == 0 or n % (f + 2) == 0:
-            return False
-        f += 6
-    return True
-
 
 answer = 0
 a = '123456789'
@@ -49,7 +17,7 @@ while not found:
     perm = list(perm)[::-1]
     for i in perm:
         number = int(''.join(i))
-        if isPrime(number):
+        if euler.is_prime(number):
             answer = number
             found = True
             break

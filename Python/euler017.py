@@ -1,7 +1,7 @@
 import time
-from euler import print_problem
+import euler
 
-print_problem(17)
+euler.print_problem(17)
 start = time.time()
 
 # ==================================================

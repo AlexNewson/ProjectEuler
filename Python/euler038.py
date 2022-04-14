@@ -1,26 +1,11 @@
 import time
-from euler import print_problem
+import euler
 
-print_problem(38)
+euler.print_problem(38)
 start = time.time()
 
 # ==================================================
 answer = 0
-
-
-def isPandigital(y):
-    if len(y) == 9:
-        x = []
-        for i in y:
-            if i == "0":
-                return False
-            elif i in x:
-                return False
-            x.append(i)
-        return True
-    else:
-        return False
-
 
 # Upper limit is 9999 because 10000 10 digit number
 for j in range(0, 9999):
@@ -30,7 +15,7 @@ for j in range(0, 9999):
         if len(number) > 9:
             break
         elif len(number) == 9:
-            if not isPandigital(number):
+            if not euler.is_pandigital(number):
                 break
             else:
                 numberint = int(number)

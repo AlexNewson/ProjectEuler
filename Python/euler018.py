@@ -1,7 +1,7 @@
 import time
-from euler import print_problem
+import euler
 
-print_problem(18)
+euler.print_problem(18)
 start = time.time()
 
 triangle = [[75],

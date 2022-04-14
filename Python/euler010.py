@@ -1,31 +1,15 @@
 import time
-from euler import print_problem
+import euler
 
-print_problem(10)
-from math import sqrt
+euler.print_problem(10)
 
 start = time.time()
 
 # ==================================================
 primeSum = 0
 
-
-def isPrime(x):
-    if x == 2:
-        return True
-    elif x % 2 == 0:
-        return False
-
-    p = 3
-    while p < sqrt(x)+1:
-        if x % p == 0:
-            return False
-        p += 2
-    return True
-
-
 for n in range(2, 2000000):
-    if isPrime(n):
+    if euler.is_prime(n):
         primeSum += n
 
 print("The Answer is: %i" % primeSum)

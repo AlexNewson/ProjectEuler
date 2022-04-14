@@ -1,25 +1,15 @@
 import time
-from euler import print_problem
+import euler
 from itertools import permutations
 
-print_problem(49)
+euler.print_problem(49)
 start = time.time()
 
 # ==================================================
-
-
-def prime_sieve(n):
-    sieve = [True] * (n//2)
-    for i in range(3, int(n**0.5) + 1, 2):
-        if sieve[i//2]:
-            sieve[i * i//2::i] = [False] * ((n - i * i - 1)//(2 * i) + 1)
-    return [2] + [2 * i + 1 for i in range(1, n//2) if sieve[i]]
-
-
 answer = 0
 primes = []
 
-for prime in prime_sieve(10000):
+for prime in euler.prime_sieve(10000):
     primes.append(prime)
 
 primes = [x for x in primes if x > 1487]
