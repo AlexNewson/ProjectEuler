@@ -21,17 +21,17 @@ triangle = [[75],
             [4, 62, 98, 27, 23, 9, 7, 98, 73, 93, 38, 53, 60, 4, 23]]
 
 maxRow = len(triangle) - 1
-currentRow = maxRow
+current_row = maxRow
 done = False
 
 while not done:
     count = -1
-    currentRow -= 1
-    for n in triangle[currentRow]:
+    current_row -= 1
+    for n in triangle[current_row]:
         count += 1
-        triangle[currentRow][count] += max(triangle[currentRow + 1][count], triangle[currentRow + 1][count + 1])
+        triangle[current_row][count] += max(triangle[current_row + 1][count], triangle[current_row + 1][count + 1])
 
-    if currentRow == 0:
+    if current_row == 0:
         done = True
 
 print("The Answer is: %i" % triangle[0][0])

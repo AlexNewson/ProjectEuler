@@ -19,13 +19,13 @@ for i in range(1, 1001):
     if len(str(i)) == 1:
         count = un[int(str(i)[0])]
     elif len(str(i)) == 2:
-        if i > 10 and i < 20:
+        if 10 < i < 20:
             count = teen[int(str(i)[1]) - 1]
         else:
             count = un[int(str(i)[1])]
             count += te[int(str(i)[0]) - 1]
     elif len(str(i)) == 3:
-        if i % 100 > 10 and i % 100 < 20:
+        if 10 < i % 100 < 20:
             count = teen[int(str(i)[2]) - 1]
             count += an
             count += hu

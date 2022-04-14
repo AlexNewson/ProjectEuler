@@ -5,12 +5,12 @@ euler.print_problem(14)
 start = time.time()
 
 # ==================================================
-highScore = 0
-highNumber = 0
+high_score = 0
+high_number = 0
 
 for i in range(1, 1000000):
     count = 0
-    numStart = i
+    num_start = i
     while i != 1:
         count += 1
         if i % 2 == 0:
@@ -18,11 +18,11 @@ for i in range(1, 1000000):
         else:
             i = 3*i + 1
 
-    if count > highScore:
-        highScore = count + 1 # For the final number of '1'
-        highNumber = numStart
+    if count > high_score:
+        high_score = count + 1  # For the final number of '1'
+        high_number = num_start
 
-print("The Answer is: %i at length %i" % (highNumber, highScore))
+print("The Answer is: %i at length %i" % (high_number, high_score))
 # ==================================================
 
 end = time.time()

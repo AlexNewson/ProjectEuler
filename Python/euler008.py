@@ -5,7 +5,7 @@ euler.print_problem(8)
 start = time.time()
 
 # ==================================================
-digitBlock = """
+digit_block = """
 73167176531330624919225119674426574742355349194934
 96983520312774506326239578318016984801869478851843
 85861560789112949495459501737958331952853208805511
@@ -28,19 +28,19 @@ digitBlock = """
 71636269561882670428252483600823257530420752963450
 """.replace("\n", "")
 
-largestProduct = 0
+largest_product = 0
 
-for x in range(len(digitBlock)):
-    substring = digitBlock[x:x+13]
+for x in range(len(digit_block)):
+    substring = digit_block[x:x+13]
     product = 1
     if len(substring) < 13:
         break
     for y in range(13):
         product *= int(substring[y])
-    if product > largestProduct:
-        largestProduct = product
+    if product > largest_product:
+        largest_product = product
 
-print("The Answer is: %i" % largestProduct)
+print("The Answer is: %i" % largest_product)
 # ==================================================
 
 end = time.time()

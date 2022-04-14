@@ -1,13 +1,12 @@
 import time
 import euler
+from functools import reduce
 
 euler.print_problem(21)
 
 start = time.time()
 
 # ==================================================
-from functools import reduce
-
 count = 0
 
 

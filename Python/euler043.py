@@ -1,12 +1,11 @@
 import time
 import euler
+from itertools import permutations
 
 euler.print_problem(43)
 start = time.time()
 
 # ==================================================
-from itertools import permutations
-
 answer = 0
 a = '0123456789'
 mod = [2, 3, 5, 7, 11, 13, 17]

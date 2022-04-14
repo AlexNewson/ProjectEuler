@@ -7,6 +7,7 @@ start = time.time()
 # ==================================================
 Limit = 1000
 nmax = 0
+
 for b in euler.prime_sieve(Limit):
     for a in range(-b + 2, 0, 2):
         n = 1

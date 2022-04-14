@@ -1,12 +1,11 @@
 import time
 import euler
+from fractions import Fraction
 
 euler.print_problem(33)
 start = time.time()
 
 # ==================================================
-from fractions import Fraction
-
 answer = Fraction(1, 1)
 answers = []
 
@@ -18,13 +17,13 @@ for num in range(11, 100):
         # Generate Denominators
         for den in range(num+1, 100):
             denStr = str(den)
-            # Emilinate Trival Fractions e.g. 30/50
+            # euler. Trivial Fractions e.g. 30/50
             if numStr[1] != "0" and denStr[1] != "0":
-                #Eliminate Trival Fractions e.g. 32/36
+                # Eliminate Trivial Fractions e.g. 32/36
                 if numStr[0] != denStr[0]:
                     # Generate Fractions
                     simp = str(Fraction(num, den)).split("/")
-                    # Eliminate Non-Cancelled and Trival Fractions
+                    # Eliminate Non-Cancelled and Trivial Fractions
                     if len(simp) == 2 and (len(simp[0]) == 1 and len(simp[1]) == 1):
                         # Compare Numerator and Denominator
                         if numStr[0] == denStr[1]:

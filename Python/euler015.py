@@ -1,8 +1,8 @@
 import time
 import euler
+from math import factorial as f
 
 euler.print_problem(15)
-from math import factorial as f
 
 start = time.time()
 

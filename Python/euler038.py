@@ -18,9 +18,9 @@ for j in range(0, 9999):
             if not euler.is_pandigital(number):
                 break
             else:
-                numberint = int(number)
-                if numberint > answer:
-                    answer = numberint
+                number_int = int(number)
+                if number_int > answer:
+                    answer = number_int
                     break
         else:
             continue

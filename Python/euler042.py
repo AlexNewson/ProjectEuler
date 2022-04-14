@@ -16,10 +16,10 @@ with open('./Resources/euler042.txt', 'r') as file:
     words = file.readline().replace("\"", "").split(",")
 
 for word in words:
-    wordvalue = 0
+    word_value = 0
     for char in word:
-        wordvalue += ord(char) - 64
-    if wordvalue in tnumbers:
+        word_value += ord(char) - 64
+    if word_value in tnumbers:
         answer += 1
 
 print("The Answer is: %i" % answer)

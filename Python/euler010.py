@@ -6,13 +6,13 @@ euler.print_problem(10)
 start = time.time()
 
 # ==================================================
-primeSum = 0
+prime_sum = 0
 
 for n in range(2, 2000000):
     if euler.is_prime(n):
-        primeSum += n
+        prime_sum += n
 
-print("The Answer is: %i" % primeSum)
+print("The Answer is: %i" % prime_sum)
 # ==================================================
 
 end = time.time()

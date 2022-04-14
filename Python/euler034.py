@@ -1,18 +1,17 @@
 import time
 import euler
+from math import factorial
 
 euler.print_problem(34)
 start = time.time()
 
 # ==================================================
-from math import factorial as f
-
 answer = 0
 
 for x in range(3, 2540160):
     y = 0
     for d in str(x):
-        y += f(int(d))
+        y += factorial(int(d))
     if y == x:
         print(x)
         answer += x

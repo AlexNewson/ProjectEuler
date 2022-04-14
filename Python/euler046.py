@@ -1,6 +1,5 @@
 import time
 import euler
-from math import sqrt
 
 euler.print_problem(46)
 start = time.time()

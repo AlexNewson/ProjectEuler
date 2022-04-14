@@ -1,12 +1,11 @@
 import time
 import euler
+from itertools import permutations
 
 euler.print_problem(32)
 start = time.time()
 
 # ==================================================
-from itertools import permutations
-
 answer = 0
 answers = set([])
 

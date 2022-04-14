@@ -1,7 +1,6 @@
 import sys
 import time
 import euler
-from math import sqrt
 from itertools import combinations
 
 euler.print_problem(44)

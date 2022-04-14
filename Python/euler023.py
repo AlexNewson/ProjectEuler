@@ -1,11 +1,11 @@
 import time
 import euler
+from functools import reduce
 
 euler.print_problem(23)
 start = time.time()
 
 # ==================================================
-from functools import reduce
 abundants = set()
 answer = 0
 

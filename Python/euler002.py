@@ -18,7 +18,6 @@ while x2 < 4000000:
     else:
         pass
 
-print(numbers)
 answer = sum(numbers)
 print("The Answer is: %i" % answer)
 # ==================================================
